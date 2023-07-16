@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+    padding: 0;
+}
+.container{
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.btn{
+    border: none;
+    background: none;
+    font-size: 20px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 150px;
+    transition: 0.5s;
+}
+.btn1,.btn2{
+    color: #3498db
+}
+.btn1{
+    align-items: center;
+    border: none;
+    height: 50vh;
+    width: 50vh;
+}
+.btn2{
+    height: 50vh;
+    width:50vh
+}
+.btn1:hover,.btn2:hover{
+    color: azure;
+}
+
+.img-nostale{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    
+}
+img{
+    transition: transform .2s;
+    width:460px;
+    height:460px;
+    margin:0 auto;
+    background-color: rgb(173, 173, 237);
+    border-radius: 10px;
+    border: 1px solid black;
+
+}
+img:hover{
+    transform:scale(2);
+}
