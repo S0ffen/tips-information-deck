@@ -6,6 +6,7 @@
     padding: 0;
     background-color: #2B2833; 
     /* #24252a; */
+ 
     
 }
 
@@ -60,6 +61,7 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 
 }
 .lodtable{
@@ -79,10 +81,13 @@ tr td{
 }
 .test{
    position: absolute;
-    top: 200px;
-    
-    left: 1750px;
-    width: 180px;
+    top: 250px;
+    left: 1650px;
+    width: 480px;
     height: 500px;
+    overflow: hidden;
 
 }
+img:hover {
+    opacity: 0.2;
+  }
