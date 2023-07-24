@@ -20,16 +20,18 @@ li, a, button{
 
 header {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    padding: 30px 10%;
+    padding: 30px 75.5px;
 }
 .nav-links{
     list-style: none;
+    
 }
 
 .nav-links li{
     display: inline-block;
-    padding: 0px 70px;
+    padding: 20px 60px;
 }
 
 .nav-links li a{
@@ -40,29 +42,23 @@ header {
     color: #0088a9
 }
 
-button{
-    padding: 9px 25px;
-    background-color: rgba(0,136,169,1);
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    transition: all 0.3s ease 0s;
-}
 
-button:hover{
-    background-color: rgba(0,136,169,0.8);
-}
 .logo{
     position: relative;
-    right: 150px;
+    right: 60px;
+    height: auto;
+    width: auto;
 }
 
-.table{
+.LoD-table{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-
+}
+.LoL-table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .lodtable{
     width: 70%;
@@ -71,26 +67,51 @@ button:hover{
     position: relative;
     /* #AEECEF */
 }
+.loltable{
+    margin-bottom: 150px;
+    width: 70%;
+    text-align: center;
+    color: #feec9a;
+    position: relative;
+}
 tr td{
     border: 0.1px solid black;
     padding: 15px;
+    background-color: #333434;
+    
 }
 .LoDT{
     text-align: center;
     margin: 10px 0px 30px 0px;
     color: #ff5709;
 }
+.LoLT{
+    text-align: center;
+    margin: 180px 0px 30px 0px;
+    color: #ff5709;
+
+}
 .scout-right{
     position: absolute;
     top: 290px;
-    left: 1500px;
+    left: 1400px;
     width: auto;
-    height: auto;
+    height: 450px;
     overflow: hidden;
 }
 
 .scout-left{
     position: absolute;
     top: 200px;
-    right: 1500px;
+    right: 1450px;
+    height: auto;
+    width: auto;
+}
+
+.navhr{
+    margin-top: 15px;
+    height: 2px;
+    background-color: #ff5709;
+    border: none
+;
 }
