@@ -4,7 +4,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #24252a;
+    background-color: #2B2833; 
+    /* #24252a; */
     
 }
 
@@ -59,14 +60,13 @@ button:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 .lodtable{
     width: 80%;
     text-align: center;
-    color: #AEECEF;
-
-
-
+    color: #feec9a;
+    /* #AEECEF */
 }
 tr td{
     border: 0.1px solid black;
@@ -75,5 +75,14 @@ tr td{
 .LoDT{
     text-align: center;
     margin: 10px 0px 30px 0px;
-    color: #645E6D;
+    color: #ff5709;
+}
+.test{
+   position: absolute;
+    top: 200px;
+    
+    left: 1750px;
+    width: 180px;
+    height: 500px;
+
 }
