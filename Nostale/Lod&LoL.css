@@ -94,10 +94,13 @@ tr td{
 .scout-right{
     position: absolute;
     top: 290px;
-    left: 1400px;
+    left: 1450px;
     width: auto;
-    height: 450px;
+    height: auto;
     overflow: hidden;
+    
+    
+    
 }
 
 .scout-left{
