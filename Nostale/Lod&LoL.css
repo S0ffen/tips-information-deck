@@ -49,6 +49,12 @@ header {
     height: auto;
     width: auto;
 }
+.navhr{
+    margin-top: 15px;
+    height: 2px;
+    background-color: #ff5709;
+    border: none;
+}
 
 .LoD-table{
     display: flex;
@@ -111,10 +117,3 @@ tr td{
     width: auto;
 }
 
-.navhr{
-    margin-top: 15px;
-    height: 2px;
-    background-color: #ff5709;
-    border: none
-;
-}
