@@ -53,3 +53,15 @@ header {
     background-color: #ff5709;
     border: none;
 }
+
+.progress-bars{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.progress{
+    width: 50vh;
+}
