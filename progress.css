@@ -63,12 +63,21 @@ header {
     gap: 10px;
     text-align: center;
 }
+.missing-progress{
+    display: flex;
+}
 
 .progress{
     width: 80vh;
 }
 .header-progress{
     color: #0088a9;
+}
+.header-missing{
+    text-align: center;
+    color: #0088a9;
+    padding: 30px 0px 30px 0px;
+
 }
 img{
     margin-top: 10px;
